@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7999cc00"
+    tools:context="com.cs.lgubustracker.SplashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/bus_app_icon"/>
+
+    <TextView
+        android:id="@+id/no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:textColor="@android:color/holo_red_dark"
+        android:fontFamily="monospace"
+        android:visibility="gone"
+        android:text="Not Internet on device.\nPlz make sure internet working on device"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_internet"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:visibility="gone"
+        android:onClick="closeApp"
+        android:layout_centerHorizontal="true"
+        android:text="OK"/>
+
+</RelativeLayout>
