@@ -79,8 +79,8 @@ public class LoginScreen extends AppCompatActivity {
 
                 JSONObject jsonObject = new JSONObject();
                 JSONObject userPassObj = new JSONObject();
-                userPassObj.put("email", username.getText().toString());
-                userPassObj.put("password", password.getText().toString());
+                userPassObj.put("email", username.getText().toString().trim().toLowerCase());
+                userPassObj.put("password", password.getText().toString().trim());
                 jsonObject.put("user", userPassObj);
                 Log.d(TAG, "data : " + jsonObject.toString());
                 JSONObject json = HttpClient.sendPostRequest(LoginScreen.this, objects[0], jsonObject.toString());

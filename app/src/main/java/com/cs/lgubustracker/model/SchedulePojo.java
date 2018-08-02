@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 /***********************************
- * Created by Babar on 7/17/2018.  *
+ * Created by Farhat on 7/17/2018.  *
  ***********************************/
 public class SchedulePojo {
     @SerializedName("schedule")

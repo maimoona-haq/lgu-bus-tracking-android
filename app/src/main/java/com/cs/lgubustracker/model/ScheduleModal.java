@@ -1,7 +1,7 @@
 package com.cs.lgubustracker.model;
 
 /***********************************
- * Created by Babar on 7/17/2018.  *
+ * Created by Farhat on 7/17/2018.  *
  ***********************************/
 public class ScheduleModal {
 

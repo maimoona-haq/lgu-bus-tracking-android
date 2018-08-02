@@ -24,11 +24,16 @@
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:singleLine="true"
             android:hint="User name"/>
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:inputType="textPassword"
             android:layout_marginTop="@dimen/_10sdp"
             android:hint="Password"/>
         <Button

@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
 /***********************************
- * Created by Babar on 4/22/2018.  *
+ * Created by Farhat on 4/22/2018.  *
  ***********************************/
 
 public class BusSchedule {

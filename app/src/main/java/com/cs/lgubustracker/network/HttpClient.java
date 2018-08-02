@@ -19,7 +19,7 @@ import java.util.HashMap;
 import javax.net.ssl.HttpsURLConnection;
 
 /***********************************
- * Created by Babar on 5/6/2018.  *
+ * Created by Farhat on 5/6/2018.  *
  ***********************************/
 
 public class HttpClient {
